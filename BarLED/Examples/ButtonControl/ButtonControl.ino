@@ -1,7 +1,7 @@
 /**
 Example for use with the Ardu Sensor Kit
 
-https://www.sparkfun.com/product/11470/
+http://www.sparkfun.com/products/11470/
 
 The button sensor is plugged into A0.
 

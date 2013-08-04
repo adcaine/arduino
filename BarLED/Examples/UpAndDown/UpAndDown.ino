@@ -1,11 +1,15 @@
 /**
 Example for use with any 10-segment Bar LED.  For example
 
-https://www.sparkfun.com/products/9935
+http://www.sparkfun.com/products/9935
 
 The pinSetup array is the array to use with the Ardu Sensor kit
 
-https://www.sparkfun.com/products/11470
+http://www.sparkfun.com/products/11470
+
+This program causes the bar graph LED to go up and down.  It is a
+good test program to ensure that the graph LED is correctly wired up.
+**/
 
 #include <BarLED.h>
 
