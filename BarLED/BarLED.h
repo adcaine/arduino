@@ -10,6 +10,8 @@
 
 #include <Arduino.h>
 
+#ifndef Bar_LED_H
+#define Bar_LED_H
 namespace allanStarSoftware{
 
 /**
@@ -129,3 +131,4 @@ class BarLED{
 
 
 } // end namespace allanStarSoftware
+#endif
