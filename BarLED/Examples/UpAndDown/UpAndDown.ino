@@ -1,3 +1,12 @@
+/**
+Example for use with any 10-segment Bar LED.  For example
+
+https://www.sparkfun.com/products/9935
+
+The pinSetup array is the array to use with the Ardu Sensor kit
+
+https://www.sparkfun.com/products/11470
+
 #include <BarLED.h>
 
 using namespace allanStarSoftware;
@@ -24,5 +33,4 @@ void loop(){
   }
 
 };
-
 

@@ -1,3 +1,15 @@
+/**
+Example for use with the Ardu Sensor Kit
+
+http://www.sparkfun.com/products/11470
+
+The force sensor is assumed to be plugged into A3
+
+The bar graph will go up when the force sensor is pinched.
+
+The bar graph will go down when the force sensor is released.
+**/
+
 #include <BarLED.h>
 
 using namespace allanStarSoftware;
@@ -14,5 +26,4 @@ void setup(){
 void loop(){
   bled.setLevelTo(map(analogRead(A3),0, 1023, -1, ARRAY_SIZE));
 }  
-
 

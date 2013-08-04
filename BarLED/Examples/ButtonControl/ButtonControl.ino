@@ -1,3 +1,15 @@
+/**
+Example for use with the Ardu Sensor Kit
+
+https://www.sparkfun.com/product/11470/
+
+The button sensor is plugged into A0.
+
+The bar LED goes up or down when the button is pressed.
+
+The bar LED stays the same when the button is released.
+**/
+
 #include <BarLED.h>
 
 using namespace allanStarSoftware;
@@ -38,4 +50,4 @@ void changeBar(){
   }else{
     bled--;
   }   
-}  
+}
